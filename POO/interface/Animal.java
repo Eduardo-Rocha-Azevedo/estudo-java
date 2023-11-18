@@ -1,0 +1,15 @@
+abstract class Animal implements SerVivo {
+    private boolean vivo;
+
+    public Animal(){
+        this.vivo = true;
+    } 
+
+    public void mover(){}
+    public void comer(int massa){}
+
+    public void info(){
+        System.out.printf("Vivo: %s\n", this.vivo ? "sim":"nao");
+    }
+
+}
